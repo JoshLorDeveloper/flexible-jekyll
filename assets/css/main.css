@@ -884,7 +884,7 @@ table tfoot td {
 }
 
 .wrapper {
-  max-width: 1250px;
+  /* max-width: 1250px; */
   position: relative;
 }
 
@@ -1162,9 +1162,9 @@ footer .copyright {
 }
 
 .post .post-content .post-title a {
-  font-family: 'PT Serif', serif;
+  /* font-family: 'PT Serif', serif; */
   text-decoration: none;
-  color: #263959;
+  color: #515151;
 }
 
 .post .post-content p {
@@ -1363,6 +1363,44 @@ a.newer-posts:hover {
 }
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
+
+/* Large Devices, Desktops */
+@media only screen and (min-width: 1500px){
+  .sidebar {
+    width: min(calc(240px + 4%), 313px);
+  }
+  .content-box{
+    padding-left: min(calc(240px + 5.5%), calc(313px + 1.5%)) ;
+  }
+}
+
+/* Large Devices, Desktops */
+@media only screen and (min-width: 1280px){
+  .post {
+    width: 48%;
+    max-width: 100%;
+    margin: 0 0.9% 1.5%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .post .post-thumbnail {
+    width: 100%;
+    min-height: 15rem;
+  }
+  .post .post-content {
+    width: 100%;
+  }
+  .post .post-content .post-title {
+    margin: 0 0 5px;
+  }
+  .post .post-content .post-title a {
+    font-size: 21px;
+  }
+}
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .post {
@@ -1390,7 +1428,7 @@ a.newer-posts:hover {
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .sidebar {
     position: relative;
     display: -webkit-box;

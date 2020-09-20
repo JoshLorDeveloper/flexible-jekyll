@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Joshua Lorincz
 author-img: joshua-lorincz.jpeg
-about-author: I am a <u>self-driven</u> software engineer with experience in mobile, full-stack, and desktop application development. My passions are entrepreneurship, pathfinding research, and community-based problem-solving, yet my <b>goal</b> is always to learn. 
+about-author: I am a <u>self-driven</u> software engineer with experience in mobile, full-stack, and desktop application development. My passions are entrepreneurship, pathfinding research, and problem-solving in my community, yet my <b>goal</b> is always to learn. 
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: JoshLorDeveloper
