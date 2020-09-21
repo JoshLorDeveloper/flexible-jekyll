@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anomalous.be
-date: 2017-09-12 13:32:20 +0300
+date: 2018-04-01 12:00:30 +0300
 description: A website that challenges people to think differently
 img: Anomalous2.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)

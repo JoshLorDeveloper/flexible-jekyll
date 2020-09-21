@@ -59,6 +59,10 @@
     align-items: stretch;
   }
 
+  .sidebar-margin{
+    padding-left: 10px;
+  }
+
   .contact-title, .copyright {
     display: none;
   }
@@ -69,6 +73,9 @@
 @media only screen and (max-width : 480px) {
   .content-box {
     padding: 10px;
+  }
+  .sidebar-margin{
+    padding-left: 10px;
   }
   .post {
     width: 98%;
