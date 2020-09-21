@@ -38,7 +38,9 @@ layout: default
     </div>
   </footer> <!-- End Footer -->
 </aside> <!-- End Sidebar -->
-<h1 class="sidebar-margin portolio-title">Portfolio</h1>
+{% if page.url == "/" %} 
+  <h1 class="sidebar-margin portolio-title">Portfolio</h1>
+{% endif %}
 <div class="content-box sidebar-margin clearfix">
   {{ content }}
 </div>

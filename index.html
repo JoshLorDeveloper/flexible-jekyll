@@ -2,20 +2,22 @@
 layout: main
 ---
 {% for post in paginator.posts %}
-<article class="post">
-  {% if post.img %}
-    {% if post.link %}
-      <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+
+<article class ="post">
+  <a class="no-link post-link" {% if post.link %} href="{{post.url | prepend: site.baseurl}}" {% else %} class="no-pointer" {% endif %}>
+    {% if post.img %}
+      <div class="post-thumbnail"  style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})"></div>
     {% else %}
-      <span class="post-thumbnail"  style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})"></span>
     {% endif %}
-  {% else %}
-  {% endif %}
-  <div class="post-content">
-    <h2 class="post-title">{% if post.link %}<a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>{% else %} {{post.title}} {% endif %}</h2>
-    <p>{{ post.excerpt | truncatewords: 200 }}</p>
-    <span class="post-date">{{post.date | date: '%Y, %b %d'}}</span>
-  </div>
+    <div class="post-content">
+      <h2 class="post-title">{{post.title}}</h2>
+      <p>{{ post.excerpt | truncatewords: 200 }}</p>
+      <span class="post-date">{{post.date | date: '%Y, %b %d'}}</span>
+      {% if post.link %}
+        <span class="post-words">&nbsp;&nbsp;—&nbsp;&nbsp;&nbsp;Click to learn more</span>
+      {% endif %}
+    </div>
+  </a>
 </article>
 {% endfor %}
 
