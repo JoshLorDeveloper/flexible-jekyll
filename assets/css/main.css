@@ -213,6 +213,11 @@ img {
   border-style: none;
 }
 
+.border-img {
+  border: 1px solid #CCC;
+  border-radius: 5px;
+}
+
 /**
  * Hide the overflow in IE.
  */
@@ -1168,6 +1173,9 @@ footer .copyright {
   min-height: 11rem;
   -webkit-background-size: cover;
           background-size: cover;
+}
+
+.post .post-link .center-background{
   background-position: 50% 50%;
 }
 

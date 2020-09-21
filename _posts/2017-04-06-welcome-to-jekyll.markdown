@@ -1,26 +1,27 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
+title: "Intelligent group maker"
 date: 2017-04-06 13:32:20 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img:  # Add image post (optional)
+description: An intelligent group creation desktop application
+img:  GroupMaker2.png
+tags: [Desktop Application, Java, JavaFX]
+link: true
+center-image: false
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+The Intelligen Group Maker is a group creation desktop application that runs on an algorithm I designed to create groups from sets of probabilities. Users of the software can create groups with numerous preferences, providing advantages over commonly used random group creators. Additionally, settings exist that allow the user to create groups that decrease the chance that people will be in a group together twice. I made my group creation software using Java and JavaFX, and released it publicly on GitHub as a desktop application for Mac.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Download link: [https://github.com/JoshLorDeveloper/GroupMaker](https://github.com/JoshLorDeveloper/GroupMaker)
 
-Jekyll also offers powerful support for code snippets:
+---
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+### Additional screenshots:
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+{:refdef: style="text-align: center;"}
+![Base screenshot]({{site.baseurl}}/assets/img/GroupMaker3.png){:.border-img}
+*The Intelligent Group Maker with different group creation settings*
+{: refdef}
+\
+{:refdef: style="text-align: center;"}
+![Base screenshot]({{site.baseurl}}/assets/img/GroupMaker1.png){:.border-img}
+*The group management portal instide of the desktop applicaiton*
+{: refdef}

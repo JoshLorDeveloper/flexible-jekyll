@@ -1,0 +1,10 @@
+I"Ü<p><code class="language-plaintext highlighter-rouge">A website that challenges people to think differently.</code> I created Anomalous.be using JavaScript, CSS, HTML, and Bootstrap on the front-end, NodeJS for the server, and MongoDB, Redis for the long-term and temporary storage as well as WebSockets to make the game real-time. It is hosted through AWS and can be accessed upon request. The purpose of the website is to push players to think in a different manner than their competitors. Effectively, it is a live quiz game where the questions have no predetermined correct answer. Instead, the correct answer is decided based on which solution is chosen by the least number of people currently playing the game.</p>
+
+<hr />
+
+<h3 id="additional-screenshots">Additional screenshots:</h3>
+
+<p style="text-align: center;"><img src="/assets/img/Anomalous1.png" alt="Base screenshot" class="border-img" />
+<em>Anomalous.be when a round is over and the scores are being showcased</em></p>
+
+:ET
