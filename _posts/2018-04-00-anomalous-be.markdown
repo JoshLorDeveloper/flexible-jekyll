@@ -5,7 +5,7 @@ date: 2018-04-01 12:00:30 +0300
 description: A website that challenges people to think differently
 img: Anomalous2.png
 fig-caption: # Add figcaption (optional)
-tags: [Website, HTML, CSS, JavaScript, Bootstrap, MongoDB, Redis, Node.js, AWS]
+tags: [Website, HTML, CSS, JavaScript, MongoDB, Redis, Node.js, AWS]
 link: true
 center-image: false
 ---
@@ -17,7 +17,7 @@ center-image: false
 
 {:refdef: style="text-align: center;"}
 ![Base screenshot]({{site.baseurl}}/assets/img/Anomalous1.png){:.border-img}
-*Anomalous.be when a round is over and the scores are being showcased*
+*Anomalous.be when a round is over and the scores are being tallied*
 {: refdef}
 
 
