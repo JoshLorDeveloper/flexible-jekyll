@@ -984,6 +984,18 @@ table tfoot td {
   }
 }
 
+/* Table caption */
+.tableFigure {
+  display: table;
+  float: left;
+}
+
+.tableCaption {
+  display: table-caption;
+  caption-side: bottom;
+  text-align: center;
+}
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 .sidebar {
   display: -webkit-box;

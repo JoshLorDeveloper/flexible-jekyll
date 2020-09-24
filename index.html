@@ -11,7 +11,7 @@ layout: main
     {% endif %}
     <div class="post-content">
       <h2 class="post-title">{{post.title}}</h2>
-      <p>{{ post.excerpt | truncatewords: 200 }}</p>
+      <p>{{ post.excerpt | remove: '<figure>' | truncatewords: 200 }}</p>
       <span class="post-date">{{post.date | date: '%Y, %b %d'}}</span>
       {% if post.link %}
         <span class="post-words">&nbsp;&nbsp;—&nbsp;&nbsp;&nbsp;Click to learn more</span>
