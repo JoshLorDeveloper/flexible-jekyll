@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Grouplus.live"
-date: 2017-09-06 13:32:20 +0300
+date: 2017-09-06 12:00:30 +0300
 description: Modern team management software focusing on improving the team experience for players and coaches alike.
 img:  Grouplus1.png
 tags: [Website, HTML, CSS, JavaScript, Bootstrap, PostgreSQL, Node.js, AWS]
 link: true
-center-image: false
+center-background: false
 ---
  Grouplus.live is a modern team management website that focuses on improving the team experience for players and coaches alike. I created the website  using JS, CSS, HTML, and Bootstrap on the front-end, NodeJS for the server, and PostgreSQL for the database. It is hosted through AWS. In brief, the website allows sports coaches to interact with their players off the field more effectively. The given picture shows how users can upload files to the site. After being sent to the server, these files are stored using Amazon’s S3 cloud storage.
 
@@ -14,7 +14,7 @@ Access link: [https://grouplus.live](https://grouplus.live)
 
 ---
 
-### Additional screenshots:
+### Screenshots Gallery:
 
 {:refdef: style="text-align: center;"}
 ![Base screenshot]({{site.baseurl}}/assets/img/Grouplus2.png){:.border-img}
@@ -28,15 +28,15 @@ Access link: [https://grouplus.live](https://grouplus.live)
 <br />
 {:refdef: style="text-align: center;"}
 ![Base screenshot]({{site.baseurl}}/assets/img/Grouplus4.png){:.border-img}
-*Incorperated inside of the event system, is the ability for coaches to keep track of player attendance.*
+*Incorperated inside of the event system, is the ability for coaches to keep track of player attendance*
 {: refdef}
 <br />
 {:refdef: style="text-align: center;"}
 ![Base screenshot]({{site.baseurl}}/assets/img/Grouplus5.png){:.border-img}
-*On the left is the admin portal showing the coaches drills. On the right is the player portal showing the players submission to one fo those drills.*
+*On the left is the admin portal showing the coaches drills. On the right is the player portal showing the players submission to one of those drills*
 {: refdef}
 <br />
 {:refdef: style="text-align: center;"}
 ![Base screenshot]({{site.baseurl}}/assets/img/Grouplus6.png){:.border-img}
-*On the left is the admin portal showing a coach reviewing the player's submission, and given the palyer an option to respond. On the right is the player portal showing the players submission.*
+*On the left is the admin portal showing a coach reviewing the player's submission, and given the palyer an option to respond. On the right is the player portal showing the players submission*
 {: refdef}

@@ -214,9 +214,17 @@ img {
 }
 
 .border-img {
-  border: 1px solid #CCC;
+  border: 2px solid #CCC;
   border-radius: 5px;
 }
+
+.small-img-width {
+ width: 300px;
+}
+
+.small-img-height {
+  height: 300px;
+ }
 
 /**
  * Hide the overflow in IE.
@@ -916,6 +924,66 @@ table tfoot td {
   clear: both;
 }
 
+/* Equal Columns */
+
+.postTable {
+  padding: 0 4px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.postTable .column2 {
+  flex: 40%;
+  max-width: 40%;
+  margin: 8px;
+  vertical-align: middle;
+  border: 2px solid #CCC;
+  border-radius: 5px;
+}
+
+.postTable .column3 {
+  flex: 30%;
+  max-width: 30%;
+  margin: 8px;
+  vertical-align: middle;
+  border: 2px solid #CCC;
+  border-radius: 5px;
+}
+
+.postTable figure img {
+  border: 2px solid #CCC;
+  border-radius: 5px;
+}
+
+.postTable figure figcaption {
+  vertical-align: middle;
+  width: 100%;
+  text-align:center;
+  padding: 8px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+  .postTable .column3 {
+    flex: 40%;
+    max-width: 40%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .postTable .column2, .postTable .column3 {
+    flex: 70%;
+    max-width: 70%;
+  }
+}
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 .sidebar {
   display: -webkit-box;
@@ -1176,7 +1244,9 @@ footer .copyright {
 }
 
 .post .post-link .center-background{
-  background-position: 50% 50%;
+  background-position: 50% 80%;
+  background-repeat: no-repeat;
+  background-size: 80%;
 }
 
 .post .post-link .post-content {
