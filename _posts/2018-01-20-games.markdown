@@ -1,0 +1,13 @@
+---
+layout: post
+title: iOS Games
+date: 2018-01-20 12:00:30 +0300
+description: An image showcasing the three iOS games that I have created
+img: Games1.png
+fig-caption: # Add figcaption (optional)
+tags: [App, Swift, iOS]
+link: true
+external-link: https://apps.apple.com/us/developer/matthew-lorincz/id1200673814
+center-background: false
+---
+Developed three games available on the iOS app store. Each game taught me different development principles and skills. Creating Swirll I learned about geometric and trigonometric algorithms as all game elemnts are dynamically generated and all physics calculations are done without external libraries. Creating 200° I attempted to design a visually appealing and clean user interface, as prior I was not happy with my projects visuals. Creating BlockMaze I desgined and built the Maze generation algorithms and learned to integrate my own algorithms into my projects.

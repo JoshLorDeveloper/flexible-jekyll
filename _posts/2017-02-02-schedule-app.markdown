@@ -6,7 +6,8 @@ description: A free phone application that allows students to organize and view 
 img: ScheduleApp1.png
 fig-caption: # Add figcaption (optional)
 tags: [App, Swift, iOS]
-link: false
+link: true
+external-link: https://apps.apple.com/us/app/id1200673815
 center-background: false
 ---
 A free phone application that allows students to organize and view their schedules in a simple and dependable manner. Over a three year period, I first created and then updated the app numerous times adding features including automatic scheduling updates, a today extension, and low-cellular mode. The app is still used consistently today by nearly every student, teacher, and administrator at my school. In total, the app has been used well over a million times and has elimanated a decade long school issue where students would often miss class due to confusion caused by the 15-day rotating schedule.

@@ -4,7 +4,7 @@ layout: main
 {% for post in paginator.posts %}
 
 <article class ="post">
-  <a {% if post.link %} class="no-link post-link" href="{{post.url | prepend: site.baseurl}}" {% else %} class="no-link post-link no-pointer" {% endif %}>
+  <a {% if post.link %} {% if post.external-link %} class="no-link post-link" href="{{post.external-link}}" {% else %} class="no-link post-link" href="{{post.url | prepend: site.baseurl}}" {% endif %} {% else %} class="no-link post-link no-pointer" {% endif %}>
     {% if post.img %}
       <div {% if post.center-background %} class="post-thumbnail center-background" {% else %} class="post-thumbnail"{% endif %} style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})"></div>
     {% else %}
