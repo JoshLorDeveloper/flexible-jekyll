@@ -2,9 +2,9 @@
 layout: post
 title: "PictureStory"
 date: 2019-04-08 12:00:30 +0300
-description: An iOS app that lets people effortlessly combine photos to create videos showing their change and growth over time.
+description: An iOS app that lets people effortlessly combine photos to create videos showing their change and growth over time
 img:  PictureStory1.jpg
-tags: [App, Swift, AI]
+tags: [App, Swift, AI, iOS]
 link: true
 center-background: true
 ---

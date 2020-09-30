@@ -1,0 +1,14 @@
+---
+layout: post
+title: WPGA Schedule App
+date: 2017-02-02 12:00:30 +0300
+description: A free phone application that allows students to organize and view their schedules in a simple and dependable manner.
+img: ScheduleApp1.png
+fig-caption: # Add figcaption (optional)
+tags: [App, Swift, iOS]
+link: false
+center-background: false
+---
+A free phone application that allows students to organize and view their schedules in a simple and dependable manner. Over a three year period, I first created and then updated the app numerous times adding features including automatic scheduling updates, a today extension, and low-cellular mode. The app is still used consistently today by nearly every student, teacher, and administrator at my school. In total, the app has been used well over a million times and has elimanated a decade long school issue where students would often miss class due to confusion caused by the 15-day rotating schedule.
+
+I originally built the app to help students app my school keep track of our complex 15-day rotating class calendar. We were anxious enough with the pressures inherent in starting high school; not being able to remember our class schedules felt like an unnecessary obstacle. Since I didn’t have connections to people with app development experience, I used the resources available to me to learn about Swift and iOS app development: YouTube, programming forums, and online documentation. Building the app, each small problem like aligning text fields with the height of a user’s keyboards, captivated me. I loved the challenge and, upon entering the zone, would lose all track of time. The app is still used consistently today by nearly every student, teacher, and administrator at my school totalling well over a million unique sessions. I’m proud that these students’ problems keeping track of their schedules have all but disappeared through something I created.
