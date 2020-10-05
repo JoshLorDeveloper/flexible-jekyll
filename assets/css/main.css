@@ -1116,6 +1116,45 @@ table tfoot td {
   padding-left: 260px;
 }
 
+.resume-link,.resume-link:visited,.resume-link:hover,.resume-link:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+	position:relative;
+  transition:0.5s color ease;
+	text-decoration:none;
+	color: #7EA2AA;
+  font-size:1.2em;
+  text-transform: uppercase;
+}
+.resume-link:hover{
+	color:#C75000;
+}
+.resume-link:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+.resume-link:after{
+  bottom:-0.25em;
+}
+.resume-link:after{
+  height:2.5px;
+  height:0.17rem;
+  width:0;
+  background:#C75000;
+}
+.resume-link:hover:after{
+  width:100%
+}
+
+.resume-link:after{
+  left:50%;
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
+}
+
 .contact .contact-title {
   position: relative;
   color: #333030;
@@ -1583,6 +1622,12 @@ a.newer-posts:hover {
     text-align: center;
     max-width: 480px;
     margin: 10px auto auto;
+  }
+  .about p {
+    margin-bottom: 7px;
+  }
+  .about .resume-link {
+    margin-bottom: 5px;
   }
   .about img {
     width: 100px;
