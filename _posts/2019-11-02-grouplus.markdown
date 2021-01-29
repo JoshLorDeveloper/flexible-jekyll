@@ -10,7 +10,7 @@ center-background: false
 ---
  Grouplus.live is a modern team management website that focuses on improving the team experience for players and coaches alike. I created the website  using JS, CSS, HTML, and Bootstrap on the front-end, NodeJS for the server, and PostgreSQL for the database. It is hosted through AWS. In brief, the website allows sports coaches to interact with their players off the field more effectively. The given picture shows how users can upload files to the site. After being sent to the server, these files are stored using Amazon’s S3 cloud storage.
 
-Access link: [https://grouplus.live](https://grouplus.live)
+Access link: [https://grouplus.live](https://grouplus.live) (Available upon request)
 
 ---
 
